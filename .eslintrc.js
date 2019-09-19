@@ -18,6 +18,7 @@ module.exports = {
     },
     plugins: ['react', 'jsx-a11y', 'import', 'react-hooks', 'prettier'],
     rules: {
+        'react/jsx-props-no-spreading': 'off',
         'prettier/prettier': 'error',
         'react/jsx-filename-extension': [
             'error',
@@ -34,6 +35,7 @@ module.exports = {
         'no-console': ['error', { allow: ['tron'] }],
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'warn',
+        'prefer-object-spread': 'off',
     },
     settings: {
         'import/resolver': {
